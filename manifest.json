@@ -1,0 +1,45 @@
+{
+  "name": "Whatsapp Web Api",
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "description": "Whatsapp Web Api with js",
+  "web_accessible_resources": [
+    "/js/web_accessible_resources/libs/jquery-3.3.1.min.js",
+    "/js/web_accessible_resources/helper/objects.js",
+    "/js/web_accessible_resources/helper/arrays.js",
+    "/js/web_accessible_resources/store-create.js",
+    "/js/web_accessible_resources/send-msg.js",
+    "/js/web_accessible_resources/message-manager.js",
+    "/js/web_accessible_resources/sqlite/tables.js",
+    "/js/web_accessible_resources/sqlite/create-db.js",
+    "/js/web_accessible_resources/sqlite/init.js",
+    "/js/web_accessible_resources/sqlite/crud/last-msg.js",
+    "/js/web_accessible_resources/sqlite/crud/messages.js",
+    "/js/web_accessible_resources/sqlite/crud/send-msg.js",
+    "/js/web_accessible_resources/loop.js"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://web.whatsapp.com/*"
+      ],
+      "js": [
+        "js/content_scripts/injectJs.js",
+        "js/content_scripts/autoload.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ],
+  "homepage_url": "https://github.com/wictorChaves/WhatsAPI"
+}
