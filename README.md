@@ -8,12 +8,12 @@ Location where the captured messages are saved
     
 # Installation
 
-Visit chrome://extensions (via omnibox or menu -> Tools -> Extensions).
+ - Visit chrome://extensions (via omnibox or menu -> Tools -> Extensions).
 
-Enable Developer mode by ticking the checkbox in the upper-right corner.
+ - Enable Developer mode by ticking the checkbox in the upper-right corner.
 
-Click on the "Load unpacked extension..." button.
+ - Click on the "Load unpacked extension..." button.
 
-Select the directory containing your unpacked extension.
+ - Select the directory containing your unpacked extension.
 
 # To manage messages use [this](https://github.com/wictorChaves/WhatsappApiPython3)
