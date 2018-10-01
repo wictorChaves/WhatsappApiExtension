@@ -1,19 +1,26 @@
-# WhatsappApiExtension
+# WhatsappApiPython3
 
-Extensão do Google Chrome para capturar as mensagem do Whatsapp Web
+Project Python to manager a database with messages of Whatsapp Web using a [extension of Google Chrome](https://github.com/wictorChaves/WhatsappApiExtension).
 
-**Local onde é salvo as mensagens capturadas:**
+# Dependencies
 
-C:\Users\\[seu usuário]\AppData\Local\Google\Chrome\User Data\\[seu profile do google chrome]\databases\https_web.whatsapp.com_0
+If you are using windows, it is necessary install VCForPython27.msi
 
-# Instalação
+**Windows command to install**
 
-Acesse o menu
-    Menu -> Mais ferramentas -> Extensões
+    python -m pip install pycryptodome
 
-Ou digite na barra de endereço
-    chrome://extensions/
+**Linux and Mac command to install**
 
-Selecione "Modo do desenvolvedor"
+    python pip install pycryptodome
 
-Clique em "Carregar sem compactação", e selecione a pasta onde se encontra o arquivo manifest.json
+**Configure windows environment variables**
+
+Python 3
+
+    C:\Users\wictor\AppData\Local\Programs\Python\Python37-32\
+
+django-admin
+
+    C:\Users\wictor\AppData\Local\Programs\Python\Python37-32\Lib\site-packages\django\bin
+
