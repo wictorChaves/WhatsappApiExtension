@@ -15,7 +15,7 @@ function sendMsg(contact, message){
         var temp = {};
         temp.contact = Chats[chat].__x__formattedTitle;
         temp.id = Chats[chat].__x_id;
-        if(temp.id.search(contact)!=-1 && temp.id.search('g.us')==-1 ){
+        if(temp.id.user.search(contact)!=-1 && temp.id.user.search('g.us')==-1 ){
             Chats[chat].sendMessage(message);
             break;
         }
