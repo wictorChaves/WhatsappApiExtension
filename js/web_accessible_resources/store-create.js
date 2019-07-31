@@ -30,11 +30,12 @@ setTimeout(function () {
     var modules = getAllModules()._value;
 
     //  Automatically locate modules
+   
     for (var key in modules) {
         if (modules[key].exports) {
             if (modules[key].exports.default) {
                 if (modules[key].exports.default.Wap) {
-                    store_id = modules[key].id.replace(/"/g, '"');
+                    store_id = modules[key].i.replace(/"/g, '"');                    
                 }
             }
         }
