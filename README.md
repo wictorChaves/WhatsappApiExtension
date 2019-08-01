@@ -2,7 +2,9 @@
 
 # WhatsappApiExtension
 
-Google Chrome extension for capturing WhatsApp Web messages
+Google Chrome extension to capture WhatsApp web messages
+
+# Database Path
 
 Location where the captured messages are saved
 
