@@ -1,5 +1,7 @@
 <p align="right"><a target="_blank" href="https://ko-fi.com/wictorchaves"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="Buy me a coffee">Buy me a coffee</a></p>
 
+<p><img src="https://github.com/wictorChaves/WhatsappApiExtension/raw/master/icons/icon128.png"></p>
+
 # Whatsapp Api Extension
 
 Google Chrome extension to capture WhatsApp web messages
